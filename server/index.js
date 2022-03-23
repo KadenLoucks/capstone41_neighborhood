@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({limit:"30mb",extended:true}));
 app.use(cors());
 
 //connect app with database
-const CONNECTION_URL = "mongodb+srv://haomin:haomin@minineighbourhood.krps8.mongodb.net/miniNeighbourhood?retryWrites=true&w=majority";
+const CONNECTION_URL = "mongodb+srv://qianli:qianli@minineighbourhood.krps8.mongodb.net/miniNeighbourhood?retryWrites=true&w=majority";
 const PORT=process.env.PORT||5000;
 mongoose.connect(CONNECTION_URL,{ useNewUrlParser: true, useUnifiedTopology: true})
 .then(()=>app.listen(PORT,()=>console.log('server running on port:'+PORT)))
