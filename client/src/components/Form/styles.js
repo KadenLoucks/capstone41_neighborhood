@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> c57b9c2d2542f9f4d9fb644b60bcdef07b0b2588
 import { makeStyles } from '@material-ui/core/styles';
 
 export default makeStyles((theme) => ({
@@ -21,4 +25,8 @@ export default makeStyles((theme) => ({
   buttonSubmit: {
     marginBottom: 10,
   },
+<<<<<<< HEAD
 }));
+=======
+}));
+>>>>>>> c57b9c2d2542f9f4d9fb644b60bcdef07b0b2588
