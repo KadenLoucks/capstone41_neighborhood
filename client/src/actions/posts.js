@@ -1,18 +1,4 @@
-<<<<<<< HEAD
-import * as api from '../api';
 
-//Action Creators
-export const getPosts = () => async (dispatch) => {
-
-    try {
-        const { data } = await api.fetchPosts();
-        dispatch({ type: 'FETCH_ALL', payload: data });
-    } catch (error) {
-        console.log(error.message);
-    }
-
-}
-=======
 import { FETCH_ALL, CREATE, UPDATE, DELETE, LIKE } from '../constants/actionTypes';
 
 import * as api from '../api/index.js';
@@ -66,4 +52,3 @@ export const deletePost = (id) => async (dispatch) => {
     console.log(error.message);
   }
 };
->>>>>>> c57b9c2d2542f9f4d9fb644b60bcdef07b0b2588

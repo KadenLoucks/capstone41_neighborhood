@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-import React from 'react';
-import useStyles from './styles';
-
-const Form = () => {
-    const classes = useStyles();
-    return(
-        <h1>FORM</h1>
-    );
-}
-
-export default Form;
-
 import React, { useState, useEffect } from 'react';
 import { TextField, Button, Typography, Paper } from '@material-ui/core';
 import { useDispatch, useSelector } from 'react-redux';
@@ -63,4 +50,4 @@ const Form = ({ currentId, setCurrentId }) => {
 };
 
 export default Form;
->>>>>>> c57b9c2d2542f9f4d9fb644b60bcdef07b0b2588
+
